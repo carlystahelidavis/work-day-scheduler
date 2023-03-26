@@ -2,11 +2,15 @@
 // the code isn't run until the browser has finished rendering all the elements
 // in the html.
 var timeEl = document.getElementById('currentDay');
-var currentTime = dayjs().format('dddd, MMMM D, YYYY');
+var currentDay = dayjs();
+var currentHour = dayjs().format('hA');
 
+timeEl.textContent = currentDay.format('dddd, MMMM D, YYYY');
 
+console.log(currentDay);
+console.log(currentHour);
 
-timeEl.textContent = currentTime;
+//if (currentHour = )
 
 
 $(function () {
@@ -30,3 +34,4 @@ $(function () {
   //
   // TODO: Add code to display the current date in the header of the page.
 });
+
