@@ -1,8 +1,10 @@
 // Wrap all code that interacts with the DOM in a call to jQuery to ensure that
 // the code isn't run until the browser has finished rendering all the elements
 // in the html.
-var timeEl = document.getElementById(currentday);
-var currentTime = dayjs();
+var timeEl = document.getElementById('currentDay');
+var currentTime = dayjs().format('dddd, MMMM D, YYYY');
+
+
 
 timeEl.textContent = currentTime;
 
