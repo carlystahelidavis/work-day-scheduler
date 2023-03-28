@@ -21,3 +21,4 @@ THEN I can save it and it will stay there
 
 https://github.com/carlystahelidavis/work-day-scheduler
 
+https://carlystahelidavis.github.io/work-day-scheduler/
